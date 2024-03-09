@@ -6,7 +6,6 @@ require('dotenv').config(); // Load environment variables
 
 // Create an Express application
 const cors = require('cors');
-const express = require('express');
 const app = express();
 app.use(cors());
 
